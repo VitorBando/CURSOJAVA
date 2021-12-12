@@ -1,0 +1,17 @@
+package fundamentos;
+
+public class Temperatura {
+	
+	public static void main(String[] args) {
+		// (ºF - 32) * 5/9 = ºC
+		
+		double ajuste = 32;
+		double multi = 5.0/9.0;
+		double F = 86;
+		
+		double calculo = (F - ajuste) * multi;
+		
+		System.out.println("O resultiado é " + calculo + "ºC.");
+		
+	}
+}

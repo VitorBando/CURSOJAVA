@@ -1,0 +1,16 @@
+package fundamentos.desafios;
+
+public class DesafioLogicos {
+
+	public static void main(String[] args) {
+		
+		// Trabalho na terça (V ou F)
+		// Trabalho na quinta (V ou F)
+		
+		boolean trabalho1 = true;
+		boolean trabalho2 = true;
+		
+		boolean TV32 = trabalho1 || trabalho2;
+		System.out.println("Comprou TV 32'" + TV32);
+	}
+}

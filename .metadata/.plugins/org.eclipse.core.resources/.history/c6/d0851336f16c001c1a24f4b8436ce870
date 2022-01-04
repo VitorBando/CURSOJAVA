@@ -1,0 +1,35 @@
+package fundamentos.desafios;
+
+import java.util.Scanner;
+
+public class DesafioCalculadora {
+	
+	public static void main(String[] args) {
+		
+		// Ler num1
+		// Ler num2
+		// + - * / %
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		String num1 = entrada.next();
+		String num2 = entrada.next();
+		
+		double valor1 = Double.parseDouble(num1);
+		double valor2 = Double.parseDouble(num2);
+		
+		System.out.println("Insira o primeiro valor: " + valor1);
+		System.out.println("Insira o segundo valor: " + valor2);
+		
+		String soma = entrada.next();
+		String subtracao = entrada.next();
+		String divisao = entrada.next();
+		String multiplicacao = entrada.next();
+		String modulo = entrada.next();
+		
+		
+		
+		entrada.close();
+	}
+
+}
